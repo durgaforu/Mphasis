@@ -1,0 +1,8 @@
+1. when ever web server gets the request from any client, WS opens web.xml file.
+2. DD verifies given url in the servlet-mapping section, and if any servlet mapping finds, then DD picks up its servlet name
+
+3. DD jumpps in to servlet sectioon, and serches with given servlet name from servlet-mapping section.
+4. If any Servlet name matches with given servle-mapping name, then that particular Select-class gets loded in to the servlet and executes it.
+
+
+
